@@ -19,18 +19,34 @@ body {
 );
 }
 
-.logo {
-
+header .logo {
+   float: left;
+   align-content: space-around;
+   margin-left: 15px;
+   font-family: 'Oswald', sans-serif;
 }
 
-.social-media {
-    text-align: right;
-    margin: 15px;
-    position: relative;
+header .social-media {
     display: flex;
     justify-content: right;
+    margin-right: 15px;
 }
 
 ul {
     list-style: none;
+}
+
+.insta {
+    margin-top: 22px;
+}
+
+/*aside*/
+
+aside h2 {
+    margin-top: 50px;
+    margin-left: 15px;
+}
+
+aside p {
+    margin-left: 15px;
 }

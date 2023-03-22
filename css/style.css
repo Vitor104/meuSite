@@ -2,21 +2,15 @@
     color: aliceblue;
 }
 
-h1 {
-    text-align: center;
-}
-
-
 
 body {
     height: 100%;
     width: 100%;
-    background: linear-gradient(
-  40deg,
-  rgb(0, 0, 0) 30%,
-  rgb(0, 0, 0) 30%,
-  rgb(252, 252, 252) 100%
-);
+    background: linear-gradient(90deg, rgb(0, 0, 0), rgb(44, 44, 44));
+}
+
+.header {
+    background: linear-gradient(90deg, rgb(0, 0, 0), rgb(56, 56, 56), rgb(252, 252, 252))
 }
 
 header .logo {
@@ -40,13 +34,36 @@ ul {
     margin-top: 22px;
 }
 
-/*aside*/
+/*aside
 
 aside h2 {
     margin-top: 50px;
     margin-left: 15px;
+    
 }
 
 aside p {
     margin-left: 15px;
+    
+    
+}   
+
+.aboutme {
+    border: 20px;
+    width: 15%;
+    margin-left: 20px;
+    border-radius: 20px;
+    background: linear-gradient(90deg, rgb(0, 0, 0), rgb(56, 56, 56), rgb(252, 252, 252) 150%)
+      
+};
+
+*/
+
+.apresentação {
+   margin-top: 200px;
+   margin-left: 200px;
+}
+
+.apresentação p {
+    font-size: 18px;
 }

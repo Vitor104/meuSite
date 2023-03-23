@@ -60,10 +60,21 @@ aside p {
 */
 
 .apresentação {
+   display: flex;
+   align-items: center;
    margin-top: 200px;
-   margin-left: 200px;
+   width: 980px;
+   justify-content: space-between;
+   
 }
 
-.apresentação p {
-    font-size: 18px;
+.apresentação p, h1, h2 {
+    
 }
+
+.minhafoto {
+    margin-left: 290px;
+}
+
+
+

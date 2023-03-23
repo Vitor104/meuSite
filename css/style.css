@@ -68,13 +68,37 @@ aside p {
    
 }
 
-.apresentação p, h1, h2 {
-    
+.apresentação h1 {
+    font-size: 20px;
 }
 
 .minhafoto {
     margin-left: 290px;
 }
+
+/*meus sites*/
+
+hr {
+    margin-top: 50px;
+    width: 500px;
+    margin-bottom: 50px;
+}
+
+.decoracao1 {
+    height: 200px;
+    border-right: 1px solid rgb(255, 254, 254);
+    width: 2px;
+    margin-left: 660px;
+    margin-bottom: 50px;
+}
+
+.primeiro-site {
+    border: 1px solid white;
+    width: 980px;
+    margin-left: 200px;
+}
+
+
 
 
 

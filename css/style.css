@@ -100,11 +100,20 @@ hr {
     justify-content: space-around;
 }
 
+.container p {
+    text-align: center;
+}
+
 .sites {
     flex: 1 1 200px;
     margin: 10px;
 }
 
-
+.sites img {
+    width: 800px;
+    height: 400px;
+    border: 15px solid rgb(0, 0, 0);
+    margin: 20px;
+}
 
 

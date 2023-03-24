@@ -92,12 +92,18 @@ hr {
     margin-bottom: 50px;
 }
 
-.primeiro-site {
-    border: 1px solid white;
-    width: 980px;
-    margin-left: 200px;
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+    justify-content: space-around;
 }
 
+.sites {
+    flex: 1 1 200px;
+    margin: 10px;
+}
 
 
 

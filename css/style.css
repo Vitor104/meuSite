@@ -116,4 +116,16 @@ hr {
     margin: 20px;
 }
 
+.linha {
+    height: 4px;
+    background-color: white;
+}
+
+.sites-2 img {
+    width: 800px;
+    height: 400px;
+    border: 15px solid rgb(0, 0, 0);
+    margin: 20px;
+}
+
 

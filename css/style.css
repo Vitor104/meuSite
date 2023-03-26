@@ -7,6 +7,7 @@ body {
     height: 100%;
     width: 100%;
     background: linear-gradient(90deg, rgb(0, 0, 0), rgb(44, 44, 44));
+    overflow-x: hidden;
 }
 
 .header {
@@ -34,30 +35,6 @@ ul {
     margin-top: 22px;
 }
 
-/*aside
-
-aside h2 {
-    margin-top: 50px;
-    margin-left: 15px;
-    
-}
-
-aside p {
-    margin-left: 15px;
-    
-    
-}   
-
-.aboutme {
-    border: 20px;
-    width: 15%;
-    margin-left: 20px;
-    border-radius: 20px;
-    background: linear-gradient(90deg, rgb(0, 0, 0), rgb(56, 56, 56), rgb(252, 252, 252) 150%)
-      
-};
-
-*/
 
 .apresentação {
    display: flex;
@@ -66,10 +43,15 @@ aside p {
    width: 980px;
    justify-content: space-between;
    
+   
 }
 
 .apresentação h1 {
     font-size: 20px;
+}
+
+span {
+    color: rgb(102, 97, 97);
 }
 
 .minhafoto {
@@ -102,6 +84,7 @@ hr {
 
 .container p {
     text-align: center;
+    font-size: 15px;
 }
 
 .sites {
@@ -116,11 +99,6 @@ hr {
     margin: 20px;
 }
 
-.linha {
-    height: 4px;
-    background-color: white;
-}
-
 .sites-2 img {
     width: 800px;
     height: 400px;
@@ -128,4 +106,17 @@ hr {
     margin: 20px;
 }
 
+footer {
+    text-align: center;
+    margin-top: 30px;
+    background: linear-gradient(90deg, rgb(0, 0, 0), rgb(56, 56, 56), rgb(252, 252, 252));
+    padding: 10px;
+}
 
+footer a {
+    text-decoration: none;
+}
+
+.fim p:hover {
+    color: rgb(0, 0, 0);
+}

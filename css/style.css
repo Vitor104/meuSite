@@ -2,7 +2,6 @@
     color: aliceblue;
 }
 
-
 body {
     height: 100%;
     width: 100%;
@@ -42,8 +41,6 @@ ul {
    margin-top: 200px;
    width: 980px;
    justify-content: space-between;
-   
-   
 }
 
 .apresentação h1 {

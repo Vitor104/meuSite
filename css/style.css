@@ -1,151 +1,273 @@
-* {
-    color: aliceblue;
+* 
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
 }
-
-body {
-    height: 100%;
+body 
+{
+    background: linear-gradient(90deg, rgb(194, 93, 93), rgb(91, 158, 218));
+    overflow-y: hidden;
+    overflow-x: auto;
+}
+.conteudo 
+{
+    width: 90%;
+    height: 38em;
+    border-radius: 5%;
+    margin: auto;
+    margin-top: 25px;
+    background: black url(/img/fundo.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+/* HEADER */
+.conteudo > #menu > a > .redes
+{
+    height: 2em;
+    width: 2em;
+    margin: 45px;
+}
+.conteudo > #menu 
+{
     width: 100%;
-    background: linear-gradient(90deg, rgb(0, 0, 0), rgb(44, 44, 44));
-    overflow-x: hidden;
-}
-
-.header {
-    background: linear-gradient(90deg, rgb(0, 0, 0), rgb(56, 56, 56), rgb(252, 252, 252))
-}
-
-header .logo {
-   float: left;
-   align-content: space-around;
-   margin-left: 15px;
-   font-family: 'Oswald', sans-serif;
-}
-
-header .social-media {
+    height: 5em;
+    align-items: center;
     display: flex;
-    justify-content: right;
-    margin-right: 15px;
+    justify-content: center;
+}
+.conteudo > #menu > a > #linkedin
+{
+    height: 2.5em;
+    width: 2.5em;
 }
 
-ul {
-    list-style: none;
+/*  APRESENTAÇÃO */
+
+main
+{
+    height: 70%;
+    width: 35%;
+    position: relative;
+    left: 50px;
+    top: 20px;
 }
-
-.git {
-    margin-top: 21px;
+main > #apresentacao > .about-me 
+{
+    padding: 30px;
 }
-
-
-.apresentação {
-   display: flex;
-   align-items: center;
-   margin-top: 200px;
-   width: 980px;
-   justify-content: space-between;
+main > #apresentacao > .about-me > p 
+{
+    color: rgb(241, 172, 172);
+    font-family: 'Merriweather', serif;
+    font-size: 1em;
 }
-
-.apresentação h1 {
-    font-size: 20px;
+main > #apresentacao > .about-me > p > span
+{
+    font-size: 2.5em;
+    display: inline;
+    background-image: linear-gradient(to bottom, rgb(194, 93, 93), rgb(91, 158, 218));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: rgb(194, 93, 93);
+    font-family: 'Bruno Ace SC', cursive;
+    text-transform: uppercase;
 }
-
-span {
-    color: rgb(102, 97, 97);
+main > #apresentacao > .about-me > #job 
+{
+    font-size: 1em; 
+    background-image: linear-gradient(to bottom, rgb(194, 93, 93), rgb(91, 158, 218));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-family: 'Castoro Titling', cursive;
 }
-
-.minhafoto {
-    margin-left: 290px;
-}
-
-/*meus sites*/
-
-hr {
-    margin-top: 50px;
-    width: 500px;
-    margin-bottom: 50px;
-}
-
-.decoracao1 {
-    height: 200px;
-    border-right: 1px solid rgb(255, 254, 254);
-    width: 2px;
-    margin-left: 660px;
-    margin-bottom: 50px;
-}
-
-.container {
-    max-width: 85%;
-    margin: 0 auto;
-    border: 5px solid white;
-    height: 600px;
-    text-align: center;
-}
-
-.container h4 {
-    background-color: white;
-    color: black;
-    margin-top: 0;
-    padding-bottom: 10px;
-    padding-top: 5px;
-}
-
-.container h2 {
-    background-color: white;
-    color: black;
-}
-
-.estilizacao {
-    display: flex;
-    justify-content: space-around;
-}
-
-.sites {
-    width: 250px;
-    height: 250px;
-    border: 5px solid white;
-    transition: 1s;
-}
-
-.imagem {
-    height: 100px;
-    width: 220px;
-}
-
-.sites:hover {
-    transform: scale(1.3);
-    background-color: black;
-    box-shadow: 2px 2px 2px black;
-    z-index: 2;
-}
-
-.notas p {
-    color: rgb(107, 104, 104);
-}
-
-.botao {
-    margin-top: 10px;
-    position: absolute;
-    margin-bottom: 0px;
-    margin-left: 80px;
-}
-
-.botao a {
-    text-decoration: none;
+main > #apresentacao > .about-me > #about
+{
+    padding-top: 15px;
 } 
-
-.container a:hover {
-    color: blue;
+main > #apresentacao > .about-me > ul
+{
+    padding-top: 35px;
+    list-style-type: none;
+}
+main > #apresentacao > .about-me > ul > #languages
+{
+    font-size: 2em;
+    background-image: linear-gradient(to bottom, rgb(194, 93, 93), rgb(91, 158, 218));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-family:'Roboto', sans-serif;
+}
+main > #apresentacao > .about-me > ul > li
+{
+    padding-top: 10px;
+    font-family: 'Merriweather', serif;
+}
+main > #apresentacao > .about-me > ul > li > .niveis
+{
+    color: rgb(241, 172, 172);
+    font-family: 'Merriweather', serif;
 }
 
-footer {
-    text-align: center;
-    margin-top: 30px;
-    background: linear-gradient(90deg, rgb(0, 0, 0), rgb(56, 56, 56), rgb(252, 252, 252));
-    padding: 10px;
+/*   PROJETOS   */
+
+.conteudo > #projects
+{
+    height: 70%;
+    width: 35%;
+    float: right;
+    position: relative;
+    bottom: 380px;
+    left: 50px;
+    border-bottom-style: none;
+    border-right-style: none;
+}
+.conteudo > #projects > #projects-details > h1
+{
+    margin: 20px;
+    top: 15px;
+    position: relative;
+    font-size: 2.5em;
+    background-image: linear-gradient(to bottom, rgb(194, 93, 93), rgb(91, 158, 218));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-family: 'Roboto', sans-serif;
+}
+.conteudo > .detalhe
+{
+    width: 10%;
+    height: 10%;
+    border: 5px solid rgb(194, 93, 93);
+    position: absolute;
+    border-bottom-style: none;
+    border-right-style: none;
+    display: inline;
+    bottom: 430px;
+    left: 900px;
 }
 
-footer a {
+.conteudo > #projects > #projects-details > ul
+{
+    padding: 50px;
+    list-style-type: none;
+    position: relative;
+    left: 50px;
+}
+.conteudo > #projects > #projects-details > ul > li
+{
+    padding: 15px;
+}
+.conteudo > #projects > #projects-details > ul > li > a
+{
     text-decoration: none;
+    color: rgb(241, 172, 172);
+    font-family: 'Merriweather', serif;
 }
 
-.fim p:hover {
-    color: rgb(0, 0, 0);
+
+/*   MEDIA QUERIES  */
+
+@media screen and (min-width: 1440px) {
+    .conteudo {
+        margin-top: 50px;
+        margin-left: 40px;
+    }
+    .conteudo > .detalhe {
+        bottom: 490px;
+    }
+}
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+    .conteudo > .detalhe {
+        bottom: 440px;
+        left: 900px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .conteudo > .detalhe {
+        position: absolute;
+        left: 630px;
+        top: 150px;
+    }
+    .conteudo > #projects {
+        position: absolute;
+        top: 150px;
+        
+        width: 250px;
+        left: 650px;
+    }
+}
+@media screen and (min-width: 601px) and (max-width: 1024) {
+    .conteudo > #projects {
+        position: absolute;
+        top: 150px;
+        
+        width: 250px;
+        right: 350px;
+    }
+}
+@media screen and (max-width: 600px) {
+    body {
+        background: none;
+        background-color: black;
+        height: 350px;
+        width: 600px;
+    }
+    .conteudo {
+        position: relative;
+        top: 40px;
+        background: none;
+        background-color: black;
+        margin: auto;
+        width:fit-content;
+        height: fit-content;
+        text-align: center;
+        
+    }
+    .conteudo > .detalhe {
+        display: none;
+    }
+    .conteudo > #menu {
+        background-color: white;
+        width: 100%;
+        border-radius: 5%;
+    }
+    main > #apresentacao > .about-me {
+        
+        display: flex;
+        width:fit-content;
+        height: fit-content;
+        position: relative;
+        right: 50px;
+    }
+    main > #apresentacao > .about-me > #job {
+        position: absolute;
+        top: 150px;
+    }
+    main > #apresentacao > .about-me > #about {
+        position: absolute;
+        top: 230px;
+        right: 50px;
+    }
+    main > #apresentacao > .about-me > ul {
+        position: relative;
+        left: 150px;
+        bottom: 40px;
+    }
+    .conteudo > #projects {
+        position: absolute;
+        top: 450px;
+        left: 250px;
+        margin: auto;
+        width: 350px;
+        width:fit-content;
+        height: fit-content;
+    }
+    .conteudo > #projects > #projects-details > h1 {
+        position: relative;
+        left: 45px;
+    }
 }

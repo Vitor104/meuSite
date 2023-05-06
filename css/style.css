@@ -17,7 +17,7 @@ body
     border-radius: 5%;
     margin: auto;
     margin-top: 25px;
-    background: black url(img/fundo.jpg) no-repeat;
+    background: black url(../img/fundo.jpg) no-repeat;
     background-size: cover;
     background-position: center center;
 }
@@ -171,44 +171,6 @@ main > #apresentacao > .about-me > ul > li > .niveis
 
 /*   MEDIA QUERIES  */
 
-@media screen and (min-width: 1440px) {
-    .conteudo {
-        margin-top: 50px;
-        margin-left: 40px;
-    }
-    .conteudo > .detalhe {
-        bottom: 490px;
-    }
-}
-@media screen and (min-width: 1024px) and (max-width: 1440px) {
-    .conteudo > .detalhe {
-        bottom: 440px;
-        left: 900px;
-    }
-}
-@media screen and (max-width: 1024px) {
-    .conteudo > .detalhe {
-        position: absolute;
-        left: 630px;
-        top: 150px;
-    }
-    .conteudo > #projects {
-        position: absolute;
-        top: 150px;
-        
-        width: 250px;
-        left: 650px;
-    }
-}
-@media screen and (min-width: 601px) and (max-width: 1024) {
-    .conteudo > #projects {
-        position: absolute;
-        top: 150px;
-        
-        width: 250px;
-        right: 350px;
-    }
-}
 @media screen and (max-width: 600px) {
     body {
         background: none;
@@ -269,5 +231,41 @@ main > #apresentacao > .about-me > ul > li > .niveis
     .conteudo > #projects > #projects-details > h1 {
         position: relative;
         left: 45px;
+    }
+}
+@media screen and (min-width: 601px) and (max-width: 1024) {
+    .conteudo > #projects {
+        position: absolute;
+        top: 150px;
+        width: 250px;
+        right: 350px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .conteudo > .detalhe {
+        position: absolute;
+        left: 630px;
+        top: 150px;
+    }
+    .conteudo > #projects {
+        position: absolute;
+        top: 150px;
+        width: 250px;
+        left: 650px;
+    }
+}
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+    .conteudo > .detalhe {
+        bottom: 440px;
+        left: 900px;
+    }
+}
+@media screen and (min-width: 1440px) {
+    .conteudo {
+        margin-top: 50px;
+        margin-left: 40px;
+    }
+    .conteudo > .detalhe {
+        bottom: 490px;
     }
 }
